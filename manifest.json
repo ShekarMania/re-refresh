@@ -1,0 +1,32 @@
+{
+  "name": "Reload",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Show route id on SRP",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cgifederal.secure.force.com/*"
+      ],
+      "js": [
+        "jquery.min.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "jquery.min.js",
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "activeTab"
+  ],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
