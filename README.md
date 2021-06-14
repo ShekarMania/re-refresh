@@ -14,9 +14,9 @@ turn on developer mode and click on Load unpacked button.
 Step 4:
 Select the extracted folder.
 
-(If youre using incognito, enable it. i would recommend you to use normal window.)
+(If youre using incognito, enable the extension for the same. But i would recommend you to use normal window.)
 
-Thats it. now your error page should auto reload until it returns.
+Thats it. now your error page should auto reload until it returns the available slots.
 
 
 NOTE: It just auto refreshes the error page, instead of refreshing manually. please watch the screen continously and comply with all the other protocols.
